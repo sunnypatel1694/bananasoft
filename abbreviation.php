@@ -195,6 +195,9 @@ if ($categoryResult) {
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             <button type="submit" class="btn btn-primary" id="editAddBtn">Submit</button>
         </div>
+        <p>
+            hello
+        </p>
         </form>
       </div>
     </div>
