@@ -1,0 +1,47 @@
+/* styles.css */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+}
+
+.main-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+footer {
+    margin-bottom: auto;
+    background-color: #343a40;
+    text-align: center;
+    padding: 5px 0;
+    color: white;
+}
+
+.navbar {
+    position: fixed;  
+    top: 0;           
+    left: 0;
+    width: 100%;      
+    z-index: 9999;    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar form {
+    display: inline-block; 
+    margin-right: 10px;
+}
+
+.searchbox{
+    margin-right: 100px;
+}
+
+.form-select{
+    width: 100px;
+}
